@@ -1,0 +1,23 @@
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 16px;
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 14px;
+  }
+}

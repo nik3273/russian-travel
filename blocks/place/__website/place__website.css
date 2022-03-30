@@ -1,0 +1,14 @@
+.place__website {
+  max-width: 456px;
+  grid-row-start: 1;
+  grid-column-start: -1;
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}

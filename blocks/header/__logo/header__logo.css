@@ -1,0 +1,14 @@
+.header__logo {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+
+  width: 176px;
+  height: 52px;
+  
+  background-image: url("../../../images/logo.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+}

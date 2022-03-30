@@ -1,0 +1,8 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+  
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}

@@ -1,0 +1,9 @@
+.header__lang-selection {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  list-style: none;
+}

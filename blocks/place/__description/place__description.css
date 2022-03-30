@@ -1,0 +1,8 @@
+.place__description {
+  max-width: 484px;
+  grid-column-start: -1;
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}

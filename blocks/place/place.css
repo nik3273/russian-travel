@@ -1,0 +1,18 @@
+.place {
+  max-width: 984px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px auto;
+  grid-template-rows: 152px auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+.place:last-of-type {
+  margin-bottom: 92px;
+}

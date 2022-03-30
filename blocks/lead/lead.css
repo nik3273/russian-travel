@@ -1,0 +1,19 @@
+.lead {
+  max-width: 984px;
+  /* height: 1005px; */
+
+  margin: 0 auto;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}

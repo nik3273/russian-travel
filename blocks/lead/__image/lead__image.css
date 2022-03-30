@@ -1,0 +1,18 @@
+.lead__image {
+  max-width: 984px;
+  min-height: 615px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-image: url("../../../images/lead__image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+  }
+}

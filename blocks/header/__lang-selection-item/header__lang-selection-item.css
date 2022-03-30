@@ -1,0 +1,8 @@
+.header__lang-selection-item {
+  margin: 0;
+  margin-right: 18px;
+}
+
+.header__lang-selection-item:last-of-type {
+  margin-right: 0;
+}

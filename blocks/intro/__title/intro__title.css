@@ -1,0 +1,9 @@
+.intro__title {
+  max-width: 680px;
+}
+
+@media (max-width: 1024px) {
+  .intro__title {
+    max-width: 620px;
+  }
+}

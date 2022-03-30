@@ -1,0 +1,19 @@
+.intro {
+  max-width: 690px;
+  margin: 0 auto;
+  /* margin-left: 148px; */
+  padding: 92px 0;
+
+  position: relative;
+  left: -148px;
+
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}

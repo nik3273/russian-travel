@@ -1,0 +1,18 @@
+.footer__nav-list {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  /* identical to box height, or 112% */
+
+  color: #FFFFFF;
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
