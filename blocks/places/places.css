@@ -1,8 +1,32 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
+  padding: 92px 0;
+
+  box-sizing: border-box;
   
-  border-style: solid;
-  border-color: red;
-  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding-top: 88px;
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    padding-top: 64px;
+    padding-bottom: 66px;
+  }
 }

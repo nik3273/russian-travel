@@ -4,7 +4,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
   background-image: url("../../../images/lead__image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,5 +13,21 @@
 @media (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
+    min-height: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+    left: -2px;
   }
 }

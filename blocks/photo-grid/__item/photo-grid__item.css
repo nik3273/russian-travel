@@ -1,4 +1,29 @@
-.photo-grid-item {
+.photo-grid__item {
   width: 284px;
-  height: 313px;
+  height: 213px;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid__item {
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid__item {
+    width: 352px;
+    height: 264px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
+  }
 }

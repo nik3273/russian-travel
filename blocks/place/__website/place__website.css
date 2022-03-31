@@ -1,14 +1,21 @@
 .place__website {
   max-width: 456px;
   grid-row-start: 1;
-  grid-column-start: -1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
 
   display: flex;
   position: relative;
   flex-direction: column;
   justify-content: flex-end;
+}
 
-  border-style: solid;
-  border-color: red;
-  border-width: 1px;
+@media (max-width: 320px) {
+  .place__website {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }

@@ -33,3 +33,33 @@
 .cover:hover::before {
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    padding-top: 195px;
+    padding-right: 232px;
+    padding-bottom: 195px;
+    padding-left: 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    padding-top: 115px;
+    padding-right: 104px;
+    padding-bottom: 115px;
+    padding-left: 104px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
