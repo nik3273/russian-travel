@@ -9,6 +9,8 @@
   grid-template-rows: repeat(2, max-content);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+
+  border: 1px solid red;
 }
 
 .place:last-of-type {

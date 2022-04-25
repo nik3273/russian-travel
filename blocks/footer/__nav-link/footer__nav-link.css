@@ -1,4 +1,4 @@
-.footer__link {
+.footer__nav-link {
   margin: 0;
   padding: 0;
 
@@ -18,12 +18,19 @@
   transition-timing-function: linear;
 }
 
-.footer__link:hover {
+.footer__nav-link:hover {
   opacity: 0.8;
 }
 
+@media (max-width: 425px) {
+  .footer__nav-link {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
 @media (max-width: 320px) {
-  .footer__link {
+  .footer__nav-link {
     font-size: 24px;
     line-height: 1;
   }

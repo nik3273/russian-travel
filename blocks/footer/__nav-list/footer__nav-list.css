@@ -3,13 +3,21 @@
   padding: 0;
   list-style-type: none;
   display: flex;
+  justify-content: flex-start;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+  .footer__nav-list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 320px) {
   .footer__nav-list {
     flex-direction: column;
+    justify-content: flex-start;
   }
-  
 }

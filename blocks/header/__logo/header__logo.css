@@ -1,16 +1,38 @@
 .header__logo {
-  position: relative;
-  top: 0px;
-  left: 0px;
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
 
   width: 176px;
   height: 52px;
   
   background-image: url("../../../images/logo.png");
+  background-size: cover;
   background-position: 0;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }
 
 @media (max-width: 320px) {

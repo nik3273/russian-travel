@@ -2,8 +2,24 @@
   margin: 0;
   padding: 0;
 
+  box-sizing: border-box;
+  
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   position: relative;
+  top: 6px;
   list-style: none;
+}
+
+@media (max-width: 425px) {
+  .header__lang-selection {
+    top: 2px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__lang-selection {
+    top: 2px;
+  }
 }

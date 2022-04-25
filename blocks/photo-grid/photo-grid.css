@@ -1,5 +1,6 @@
 .photo-grid {
   max-width: 1184px;
+  min-width: 288px;
   margin: 0 auto;
   padding: 0;
 
@@ -8,6 +9,8 @@
   grid-template-rows: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 16px;
+  
+  border: 1px solid red;
 }
 
 @media (max-width: 1024px) {

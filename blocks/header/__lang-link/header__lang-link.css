@@ -7,13 +7,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.17;
-  text-align: right;
-
   text-decoration: none;
+  text-align: right;
   color: #fff;
 
   cursor: pointer;
-
   transition-property: opacity;
   transition-duration: .4s;
   transition-timing-function: linear;
@@ -21,6 +19,13 @@
 
 .header__lang-link:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }  
 }
 
 @media (max-width: 320px) {
