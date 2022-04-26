@@ -25,13 +25,13 @@
 }
 */
 
-/*
+
 @media (max-width: 768px) {
   .lead__subtitle {
-
+    font-size: calc(100vw / 25.6);
   }
 }
-*/
+
 
 @media (max-width: 425px) {
   .lead__subtitle {

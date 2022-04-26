@@ -25,13 +25,13 @@
 }
 */
 
-/*
+
 @media (max-width: 768px) {
   .lead__title {
-
+    font-size: calc(100vw / 8);
   }
 }
-*/
+
 
 @media (max-width: 425px) {
   .lead__title {
