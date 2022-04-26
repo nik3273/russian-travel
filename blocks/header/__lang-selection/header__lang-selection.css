@@ -12,13 +12,13 @@
   list-style: none;
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__lang-selection {
     top: 2px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header__lang-selection {
     top: 2px;
   }

@@ -1,6 +1,7 @@
 .header__lang-selection-item {
   margin: 0;
   margin-right: 18px;
+  padding: 0;
 }
 
 .header__lang-selection-item:last-of-type {

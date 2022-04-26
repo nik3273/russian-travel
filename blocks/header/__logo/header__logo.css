@@ -10,32 +10,18 @@
   
   background-image: url("../../../images/logo.png");
   background-size: cover;
-  background-position: 0;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1024px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__logo {
     width: 142px;
     height: 42px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header__logo {
     width: 142px;
     height: 42px;
