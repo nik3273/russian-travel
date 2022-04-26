@@ -3,47 +3,34 @@
   min-width: 288px;
   margin: 0;
   padding: 92px 0;
-
-  position: relative;
-  /* left: -146px; */
-
-  /* border: 1px solid red; */
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .intro {
-    max-width: 690px;
-    padding-top: 92px;
-    padding-bottom: 92px;
-  }
+    max-width: calc(690px + ((1024px - 100vw) * 0.12));
+  }  
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
+    max-width: calc(720px - ((768px - 100vw) * 1.26));
     padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: 288px;
+    padding-top: 64px;
     padding-bottom: 64px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .intro {
-    width: 100vw;
-    min-width: 288px;
+    max-width: 288px;
     padding-top: 64px;
     padding-bottom: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro {
-    width: 100vw;
-    min-width: 288px;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }

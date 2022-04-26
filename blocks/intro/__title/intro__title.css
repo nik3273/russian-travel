@@ -6,36 +6,30 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.07;
+  line-height: 1.05;
+  color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .intro__title {
+    max-width: 100%;
     font-weight: 900;
-    font-size: 54px;
-    line-height: 1.07;
+    font-size: calc(100vw / 14.2);
+    line-height: 1.05;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .intro__title {
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 1.07;
-  }
-}
-
-@media (max-width: 425px) {
-  .intro__title {
-    font-weight: 900;
+    max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .intro__title {
-    font-weight: 900;
+    max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
   }

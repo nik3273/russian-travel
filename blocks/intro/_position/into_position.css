@@ -1,26 +1,32 @@
 .intro_position {
-  margin-left: calc((100vw - 690px) / 2  - 147px);
+  margin-left: 148px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro_position {
-    margin-left: calc((100vw - 690px) / 2  - 119px);
+    margin-left: calc((148px - (1280px - 100vw) * 0.39));
   } 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .intro_position {
-    margin-left: calc((100vw - 690px) / 2  - 15px);
+    margin-left: calc((48px - (1024px - 100vw) * 0.09));
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .intro_position {
+    margin-left: calc((24px - (768px - 100vw) * 0.02));
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .intro_position {
     margin-left: 16px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .intro_position {
     margin-left: 16px;
   }
