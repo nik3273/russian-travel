@@ -4,8 +4,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
-  border: 1px solid red;
 }
 
 @media (max-width: 1024px) {

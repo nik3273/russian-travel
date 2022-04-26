@@ -1,0 +1,27 @@
+.intro_position {
+  margin-left: calc((100vw - 690px) / 2  - 147px);
+}
+
+@media (max-width: 1024px) {
+  .intro_position {
+    margin-left: calc((100vw - 690px) / 2  - 119px);
+  } 
+}
+
+@media (max-width: 768px) {
+  .intro_position {
+    margin-left: calc((100vw - 690px) / 2  - 15px);
+  }
+}
+
+@media (max-width: 425px) {
+  .intro_position {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro_position {
+    margin-left: 16px;
+  }
+}

@@ -17,26 +17,35 @@
   color: #fff;
 }
 
+/*
 @media (max-width: 1024px) {
   .lead__subtitle {
-    max-width: 640px;
-    font-size: 30px;
+
   }
 }
+*/
+
+/*
+@media (max-width: 768px) {
+  .lead__subtitle {
+
+  }
+}
+*/
 
 @media (max-width: 425px) {
   .lead__subtitle {
-    min-width: 288px;
+    max-width: 288px;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.25;
+
   }
 }
 
 @media (max-width: 320px) {
   .lead__subtitle {
-    min-width: 288px;
+    max-width: 288px;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.25;
   }
 }
-

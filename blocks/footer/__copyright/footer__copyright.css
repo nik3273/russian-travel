@@ -1,7 +1,7 @@
 .footer__copyright {
   margin: 0;
   padding: 0;
-  width: fit-content;
+  min-width: fit-content;
   font-family: "Inter";
   font-size: 14px;
   font-style: normal;
@@ -9,9 +9,15 @@
   line-height: 1.14;
 }
 
+@media (max-width: 640px) {
+  .footer__copyright {
+    padding-top: 1em;
+  }  
+}
+
 @media (max-width: 425px) {
   .footer__copyright {
-    width: 100%;
+    max-width: 100%;
     padding-top: 48px;
     line-height: 1;
   }
@@ -19,7 +25,7 @@
 
 @media (max-width: 320px) {
   .footer__copyright {
-    width: 100%;
+    max-width: 100%;
     padding-top: 48px;
     line-height: 1;
   }

@@ -1,4 +1,6 @@
 .lead__title {
+  max-width: 720px;
+  min-width: 288px;
   margin: 0 auto;
   margin-bottom: 32px;
   padding: 0;
@@ -15,22 +17,26 @@
   color: #fff;
 }
 
+/*
 @media (max-width: 1024px) {
   .lead__title {
 
   }
 }
+*/
 
+/*
 @media (max-width: 768px) {
   .lead__title {
 
   }
 }
+*/
 
 @media (max-width: 425px) {
   .lead__title {
-    min-width: 288px;
-    margin-bottom: 18px;
+    max-width: 288px;
+    margin-bottom: 16px;
     font-size: 40px;
     line-height: 1.1;
   }  
@@ -38,7 +44,7 @@
 
 @media (max-width: 320px) {
   .lead__title {
-    min-width: 288px;
+    max-width: 288px;
     margin-bottom: 16px;
     font-size: 40px;
     line-height: 1.1;

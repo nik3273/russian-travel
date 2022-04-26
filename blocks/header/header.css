@@ -1,6 +1,7 @@
 .header {
+  max-width: 100%;
   min-width: 288px;
-  margin: 0 auto;
+  margin: 0;
   padding: 28px 48px 56px;
 
   box-sizing: border-box;
@@ -10,9 +11,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  border: 1px solid red;
-
 }
 
 @media (max-width: 1024px) {
