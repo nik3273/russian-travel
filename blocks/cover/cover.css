@@ -1,18 +1,14 @@
 .cover {
   max-width: 1184px;
-  min-width: 100px;
+  min-width: 320px;
   background-image: url("../../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
   position: relative;
   margin: 0 auto;
   padding: 245px 312px;
-
   box-sizing: border-box;
   cursor: pointer;
-
-  border: 1px solid red;
 }
 
 .cover::before {
@@ -20,8 +16,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* right: 0;
-  bottom: 0; */
   width: 100%;
   height: 100%;
 
@@ -37,27 +31,37 @@
   opacity: 0.8;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    max-width: 100%;
     padding-top: 195px;
-    padding-right: 232px;
     padding-bottom: 195px;
     padding-left: 232px;
+    padding-right: 232px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
+    max-width: 100%;
     padding-top: 115px;
-    padding-right: 104px;
     padding-bottom: 115px;
     padding-left: 104px;
+    padding-right: 104px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 425px) {
+  .cover {
+    max-width: 320px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
     padding-top: 33px;
