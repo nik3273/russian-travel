@@ -5,15 +5,14 @@
   margin-bottom: 32px;
   padding: 0;
 
+  box-sizing: border-box;
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
-
-  box-sizing: border-box;
   text-align: center;
-
   color: #fff;
 }
 
@@ -26,14 +25,14 @@
 */
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     font-size: calc(100vw / 8);
   }
 }
 
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .lead__title {
     max-width: 288px;
     margin-bottom: 16px;
@@ -42,7 +41,7 @@
   }  
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
     margin-bottom: 16px;
