@@ -1,6 +1,7 @@
 .place__paragraph {
+  max-width: 100%;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   padding: 0;
 
   font-family: 'Inter';
@@ -14,20 +15,21 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 1024px) {
-  .place__paragraph {
-    margin-bottom: 26px;
-  } 
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     margin-bottom: 25px;
     font-size: 16px;
   }  
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }  
+}
+
+@media screen and (max-width: 320px) {
   .place__paragraph {
     margin-bottom: 25px;
     font-size: 16px;
