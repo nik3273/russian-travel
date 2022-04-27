@@ -4,7 +4,8 @@
   margin-bottom: 32px;
   padding: 0;
   position: relative;
-  font-family: 'Inter';
+  
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;

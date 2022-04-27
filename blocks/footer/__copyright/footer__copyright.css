@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   min-width: fit-content;
-  font-family: "Inter";
+  
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
