@@ -6,34 +6,34 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, max-content);
+  grid-template-areas:
+    "title website"
+    "image description";
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: minmax(47%, 440px) 1fr;
     grid-column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: minmax(47%, 340px) 1fr;
     grid-column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
   .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, max-content);
-    grid-row-gap: 32px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place {
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "description";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, max-content);
     grid-row-gap: 32px;

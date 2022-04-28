@@ -35,12 +35,3 @@
     padding-right: 16px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .header {
-    padding-top: 16px;
-    padding-bottom: 48px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}

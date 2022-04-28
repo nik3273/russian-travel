@@ -2,10 +2,7 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: description;
   box-sizing: border-box;
 }
 
@@ -13,20 +10,5 @@
   .place__description {
     padding-left: 16px;
     padding-right: 16px;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__description {
-    padding-left: 16px;
-    padding-right: 16px;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 2;
   }
 }

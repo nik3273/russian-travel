@@ -2,11 +2,7 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 2;
-  grid-column-end: 3;
-
+  grid-area: website;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -17,20 +13,5 @@
   .place__website {
     padding-left: 16px;
     padding-right: 16px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-}
-
-@media (max-width: 320px) {
-  .place__website {
-    padding-left: 16px;
-    padding-right: 16px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
   }
 }

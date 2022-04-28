@@ -10,7 +10,7 @@
   grid-gap: 16px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .photo-grid {
     max-width: 92.5%;
   }
@@ -31,14 +31,6 @@
 }
 
 @media screen and (max-width: 425px) {
-  .photo-grid {
-    max-width: 288px;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    grid-gap: 12px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .photo-grid {
     max-width: 288px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));

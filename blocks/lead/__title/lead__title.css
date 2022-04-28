@@ -16,15 +16,6 @@
   color: #fff;
 }
 
-/*
-@media (max-width: 1024px) {
-  .lead__title {
-
-  }
-}
-*/
-
-
 @media screen and (max-width: 768px) {
   .lead__title {
     font-size: calc(100vw / 8);
@@ -39,13 +30,4 @@
     font-size: 40px;
     line-height: 1.1;
   }  
-}
-
-@media screen and (max-width: 320px) {
-  .lead__title {
-    max-width: 288px;
-    margin-bottom: 16px;
-    font-size: 40px;
-    line-height: 1.1;
-  }
 }

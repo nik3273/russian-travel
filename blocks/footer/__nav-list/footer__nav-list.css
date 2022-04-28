@@ -8,14 +8,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 425px) {
-  .footer__nav-list {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-}
-
-@media (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer__nav-list {
     flex-direction: column;
     justify-content: flex-start;
