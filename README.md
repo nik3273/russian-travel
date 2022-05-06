@@ -27,4 +27,6 @@
 
 ---
 
+[Ссылка на проект](https://github.com/nik6282/russian-travel.git)
+
 Спасибо за ваши отзывы!
